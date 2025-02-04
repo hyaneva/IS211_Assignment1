@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[130]:
-
 
 #2
 
@@ -15,7 +10,6 @@ def list_divide(numbers, divide = 2):
 
 
 
-# In[136]:
 
 
 #3
@@ -24,7 +18,7 @@ class ListDivideException(Exception):
     pass
 
 
-# In[199]:
+
 
 
 #4
@@ -46,25 +40,13 @@ def test_list_divide():
         raise ListDivideException()
 
 
-# In[200]:
+
 
 
 test_list_divide()
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
